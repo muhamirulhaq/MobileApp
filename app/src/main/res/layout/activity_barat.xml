@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bgindo"
+	android:orientation="vertical"
+	android:gravity="top|center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Film Barat"
+		android:textStyle="bold|italic"
+		android:textColor="#FFFFFF"
+		android:textSize="30dp"
+		android:layout_marginTop="40dp"
+		android:layout_marginBottom="10dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="1. Titanic 1997"
+		android:textColor="#FFFFFF"
+		android:textSize="16dp"
+		android:textStyle="italic|bold"
+		android:gravity="center"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="40dp"/>
+	
+	
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Titanic merupakan salah satu film romantis terbaik sepanjang zaman. Bahkan meski ditonton berulang kali, film yang diproduksi tahun 1997 ini selalu sukses membuat penontonnya terenyuh dengan kisah cinta Jack dan Rose yang dibintangi oleh Leonardo Dicaprio dan Kate Winslet."
+			android:textColor="#FFFFFF"
+			android:textSize="16dp"
+			android:textStyle="italic"
+
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="30dp"
+			android:layout_gravity="left"
+			android:layout_marginRight="40dp"/>
+
+	
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="2. The wizard of OZ 1939"
+		android:textColor="#FFFFFF"
+		android:textSize="16dp"
+		android:textStyle="italic|bold"
+
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="40dp"/>
+
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Film fantasi yang diproduksi di tahun 1939 ini mengisahkan tentang petualangan seorang gadis bernama Dorothy di negeri OZ."
+			android:textColor="#FFFFFF"
+			android:textSize="16dp"
+			android:textStyle="italic"
+			
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="30dp"
+			android:layout_gravity="left"
+			android:layout_marginRight="40dp"/>
+
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="3. The Exorcist 1973"
+		android:textColor="#FFFFFF"
+		android:textSize="16dp"
+		android:textStyle="italic|bold"
+		
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="40dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Film ini bercerita tentang usaha seorang ibu untuk menyembuhkan putrinya yang kerasukan setan melalui eksorsisme (ritual pengusiran setan) yang dilakukan oleh dua orang pastur."
+			android:textColor="#FFFFFF"
+			android:textSize="16dp"
+			android:textStyle="italic"
+			
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="30dp"
+			android:layout_gravity="left"
+			android:layout_marginRight="40dp"/>
+
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="4. A Nightmare on Elm Street 1984"
+		android:textColor="#FFFFFF"
+		android:textSize="16dp"
+		android:textStyle="italic|bold"
+	
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="40dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Siapa yang tidak kenal dengan sosok  seram Freddy Krueger? Tokoh ini pertama kali muncul dalam film horor A Nightmare on Elm Street yang disutradarai oleh Wes Craven. Semasa hidupnya, Freddy Krueger adalah pembunuh anak-anak. Pria bertopi ini pun meninggal karena dibakar hidup-hidup oleh masyarakat."
+			android:textColor="#FFFFFF"
+			android:textSize="16dp"
+			android:textStyle="italic"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="30dp"
+			android:layout_gravity="left"
+			android:layout_marginRight="40dp"/>
+
+	<LinearLayout
+
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center">
+
+	    <Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|left"
+			android:layout_margin="15dp"
+      android:onClick="keHalIndo2"
+			android:text="Film Indo"/>
+
+	    <Button
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	        android:layout_gravity="bottom|right"
+			android:layout_margin="15dp"
+       android:onClick="keHalBeranda"
+	    	android:text="Beranda"/>
+		
+	</LinearLayout>
+	
+</LinearLayout>
+

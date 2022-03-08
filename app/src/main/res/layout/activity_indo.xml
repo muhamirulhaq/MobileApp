@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bgindo"
+	android:orientation="vertical"
+	android:gravity="top|center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Film Indonesia"
+		android:textStyle="bold|italic"
+		android:textColor="#FFFFFF"
+		android:textSize="30dp"
+		android:layout_marginTop="40dp"
+		android:layout_marginBottom="10dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="1. Teluh 2022"
+		android:textColor="#FFFFFF"
+		android:textSize="16dp"
+		android:textStyle="italic|bold"
+		android:gravity="center"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="40dp"/>
+	
+	
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Teluh adalah film horor Indonesia karya Dedy Mercy yang dirilis pada 20 Januari 2022. Film ini diperankan oleh Baron Hermanto, Ferdi Ali, dan Monique Henry."
+			android:textColor="#FFFFFF"
+			android:textSize="16dp"
+			android:textStyle="italic"
+
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="30dp"
+			android:layout_gravity="left"
+			android:layout_marginRight="40dp"/>
+
+	
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="2. Sesat 2018"
+		android:textColor="#FFFFFF"
+		android:textSize="16dp"
+		android:textStyle="italic|bold"
+
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="40dp"/>
+
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Sesat atau lengkapnya Sesat: Yang Sudah Pergi Jangan Dipanggil Lagi adalah film horor Indonesia yang dirilis pada 23 Agustus 2018 dan disutradarai oleh Sammaria Simanjuntak. Film ini dibintangi antara lain oleh Laura Theux, Rebecca Klopper, Vonny Cornellya, serta Endy Arfian."
+			android:textColor="#FFFFFF"
+			android:textSize="16dp"
+			android:textStyle="italic"
+			
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="30dp"
+			android:layout_gravity="left"
+			android:layout_marginRight="40dp"/>
+
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="3. Pengabdi setan 2017"
+		android:textColor="#FFFFFF"
+		android:textSize="16dp"
+		android:textStyle="italic|bold"
+		
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="40dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Pengabdi Setan (bahasa Inggris: Satan's Slaves) merupakan film horor Indonesia yang dirilis pada 28 September 2017 yang ditulis dan disutradarai oleh Joko Anwar. Film ini adalah pembuatan ulang (remake) dari film berjudul sama pada tahun 1980 silam."
+			android:textColor="#FFFFFF"
+			android:textSize="16dp"
+			android:textStyle="italic"
+			
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="30dp"
+			android:layout_gravity="left"
+			android:layout_marginRight="40dp"/>
+
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="4. Sebelum Iblis Menjemput"
+		android:textColor="#FFFFFF"
+		android:textSize="16dp"
+		android:textStyle="italic|bold"
+	
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="40dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Sebelum Iblis Menjemput menceritakan kisah Alfie (Chelsea Islan), seorang perempuan muda yang dihantui masa lalunya yang kelam."
+			android:textColor="#FFFFFF"
+			android:textSize="16dp"
+			android:textStyle="italic"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="30dp"
+			android:layout_gravity="left"
+			android:layout_marginRight="40dp"/>
+
+	<LinearLayout
+
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center">
+
+	    <Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|left"
+			android:layout_margin="15dp"
+       android:onClick="keHalBeranda2"
+			android:text="Beranda"/>
+
+	    <Button
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	        android:layout_gravity="bottom|right"
+			android:layout_margin="15dp"
+       android:onClick="keHalBarat2"
+	    	android:text="Film Barat"/>
+		
+	</LinearLayout>
+	
+</LinearLayout>
+

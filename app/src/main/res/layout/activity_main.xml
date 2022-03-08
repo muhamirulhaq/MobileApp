@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg"
+	android:orientation="vertical"
+	android:gravity="top|center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Aneka"
+		android:textStyle="bold|italic"
+		android:textColor="#FFFFFF"
+		android:textSize="50dp"
+		android:layout_marginTop="60dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Film"
+		android:textColor="#FFFFFF"
+		android:textSize="85dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Halo...selamat datang di Aneka Film.\n\nKami menyediakan berbagai info terkait film-film tertentu yang kemungkinan anda sukai. Anda bisa melihat baik itu film indonesia ataupun film barat dengan menuju ke halaman masing-masing."
+		android:textColor="#FFFFFF"
+		android:textSize="16dp"
+		android:textStyle="italic"
+		android:gravity="center"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="50dp"
+	    android:layout_marginLeft="40dp"
+	    android:layout_marginRight="40dp"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="By Muhammad Amirul Haq\nH071201079\nProdi Sistem Informasi\nUNIVERSITAS HASANUDDIN"
+		android:textColor="#FFFFFF"
+		android:textSize="16dp"
+		android:textStyle="bold|italic"
+		android:gravity="center"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginTop="50dp"
+	    android:layout_marginLeft="40dp"
+	    android:layout_marginRight="40dp"/>
+	
+	<LinearLayout
+
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center">
+
+	    <Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|left"
+			android:layout_margin="15dp"
+       android:onClick="keHalBarat"
+			android:text="Film Barat"/>
+
+	    <Button
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	        android:layout_gravity="bottom|right"
+			android:layout_margin="15dp"
+			android:onClick="keHalIndo"
+	    	android:text="Film Indo"/>
+		
+	</LinearLayout>
+	
+</LinearLayout>
+
